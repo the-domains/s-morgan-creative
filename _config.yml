@@ -1,28 +1,40 @@
-name: S Morgan Creative
+layout_spectrum: 0.3893617
 favicon: null
-layout_spectrum: 0.28565799607895315
-typography_spectrum: 0.7375189487356693
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: S Morgan Creative
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
   brandStrength: 0.751734952442348
   lightness: 0.4627299061976373
   saturation: 0.5429354831576347
   rhythmicContrast: 0.960515518905595
-purpose: []
+  brandColors:
+    - '#FFFFFF'
+    - '#231F20'
+    - '#F6932C'
+    - '#C7C6C7'
+    - '#918F90'
+typography_spectrum: 0.7893617
